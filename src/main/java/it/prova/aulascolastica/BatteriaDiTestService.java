@@ -54,7 +54,7 @@ public class BatteriaDiTestService {
 
 				// controllo che l'aula abbia posto per lo studente
 				studenteService.inserisciStudenteInAula(nuovoStudente, aulaService.caricaSingolaAula(2L));
-
+				//poteri fare nel service inserisciStudenteInAula l'insert nel db, ma preferisco disaccoppiare la logica
 				// salvo
 				studenteService.inserisciNuovo(nuovoStudente);
 				break;

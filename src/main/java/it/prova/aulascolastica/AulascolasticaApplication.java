@@ -18,9 +18,9 @@ public class AulascolasticaApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// DA VALORIZZARE SECONDO I CASI ESPOSTI NELLE COSTANTI SOPRA
-		// ##########################################################
+		//***********************************************************
 		String casoDaTestare = BatteriaDiTestService.UPDATE_STUDENTE;
-		// ##########################################################
+		// ***********************************************************
 
 		System.out.println("################ START   #################");
 		System.out.println("################ eseguo il test " + casoDaTestare + "  #################");
